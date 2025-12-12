@@ -23,7 +23,7 @@ from semantic_kernel.connectors.ai.prompt_execution_settings import (
     PromptExecutionSettings,
 )
 
-# Note: MCP import disabled due to dependency compatibility
+# Note: MCP import disabled due  to dependency compatibility
 # from semantic_kernel.connectors.mcp import MCPPluginBase
 from semantic_kernel.contents import ChatMessageContent
 from semantic_kernel.functions import KernelPlugin
