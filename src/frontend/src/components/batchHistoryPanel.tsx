@@ -69,7 +69,7 @@ const HistoryPanel: React.FC<HistoryPanelProps> = ({ isOpen, onClose }) => {
         // You might want to show a more specific message
         // setError("No batch history found.");
       } else {
-        // Handle other non-array responses
+        // Handle other  non-array responses
         console.error('Unexpected API response format:', data);
         setBatchHistory([]);
         setError("Unable to load batch history due to unexpected data format.");
