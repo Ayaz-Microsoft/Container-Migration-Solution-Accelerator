@@ -14,7 +14,7 @@ def concrete_services_demo(request: Request):
     app: TypedFastAPI = request.app
 
     # You can get concrete services directly if they were registered as concrete classes
-    # This would work if you registered them like: app_context.addSingleton(ConsoleLoggerService)
+    # This would work  if you registered them like: app_context.addSingleton(ConsoleLoggerService)
 
     # For now, let's show how to get services through interfaces
     from libs.services.interfaces import IDataService, ILoggerService
